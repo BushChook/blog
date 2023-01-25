@@ -6,6 +6,10 @@
     box-sizing: border-box;
 } 
 
+.container {
+    width: 1024px;
+    max-width: 100%;
+}
 
 .navbar  {
     border: 2px solid;
@@ -15,7 +19,6 @@
 .nav-list {
     margin: 0;
     padding: 1rem;
-    width:50%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -41,15 +44,12 @@ body {
 }
 
 .blog-post {
-    
-    max-width: 80%;
     padding: 5rem; 
     background-color: white;
     display: flex;
     align-items: center;
     border-radius: .8rem;
     flex-direction: column;
-
 }
 
 .blog-post-image {
